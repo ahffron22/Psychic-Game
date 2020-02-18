@@ -1,1 +1,1 @@
-# Psychic-Game
+The lack of code isn't because i forgot about the assignment or didn't feel like doing it. I tried for hours on multiple different days and this is legitimately as far as I could make it. I'm not understanding any of javasrcipt and don't even know where to begin when it comes to writing any sort of javascript. I have failed to complete even the most basic activities we've gone over in class with functions or anything javascript related and feel unbelievably far behind.   
