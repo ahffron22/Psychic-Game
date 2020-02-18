@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>psychic game</title>
+    <link href = "style.css" rel = "stylesheet">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+</head>
+<body>
+    <h1>Guess what letter I'm thinking of!</h1>
+    <h2>wins: </h2>
+    <h2>losses: </h2>
+    <h2>guesses left: </h2>
+    <h2>your guesses so far: </h2>
+
+    <script type = "text/javascript">
+          $(document).ready(function() {
+
+            var computerChoice = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
+            var wins = 0;
+            var losses = 0;
+            
+            document.onkeyup = function(event) {
+
+                var userGuess = event.key;
+
+                var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+
+
+
+    </script>
+
+    
+</body>
+</html>
