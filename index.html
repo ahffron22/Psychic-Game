@@ -9,29 +9,19 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 </head>
 <body>
-    <h1>Guess what letter I'm thinking of!</h1>
-    <h2>wins: </h2>
-    <h2>losses: </h2>
-    <h2>guesses left: </h2>
-    <h2>your guesses so far: </h2>
+    <h1>The psychic Game</h1>
 
-    <script type = "text/javascript">
-          $(document).ready(function() {
+    <p>Guess what letter I'm thinkning of!</p>
 
-            var computerChoice = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
-            var wins = 0;
-            var losses = 0;
-            
-            document.onkeyup = function(event) {
+    <p>Wins: <span id = "wins">0</span></p>
 
-                var userGuess = event.key;
+    <p> losses: <span id = "losses">0</span></p>
 
-                var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
+    <p>Guesses Left: <span id = "guesses-left">10</span></p>
 
+    <p>Your Guesses so far: <span id = "guesses-so-far"></span></p>
 
-
-    </script>
-
+    <script type = "text/javascript" src = "actions.js"></script>
     
 </body>
 </html>
