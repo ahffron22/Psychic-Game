@@ -1,1 +1,2 @@
-I tried this on multiple different occasions and this was the most i could come up with. I have been having an extremely hard time with javascript and feel like i don't know where to even begin when it comes to writing any sort of javascript.  
+
+https://ahffron22.github.io/Psychic-Game.github.io/
