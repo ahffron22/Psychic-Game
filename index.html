@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>psychic game</title>
-    <link href = "style.css" rel = "stylesheet">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
-</head>
-<body>
-    <h1>The psychic Game</h1>
+    <link href="style.css" rel="stylesheet" />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+    ></script>
+  </head>
+  <body>
+    <h1 id="title">The psychic Game</h1>
 
-    <p>Guess what letter I'm thinkning of!</p>
+    <p id="text">Guess what letter I'm thinkning of! Type a letter to start!</p>
+    <div id="scoreboard">
+      <p id="winsSB">Wins: <span id="wins">0</span></p>
 
-    <p>Wins: <span id = "wins">0</span></p>
+      <p id="lossesSB">losses: <span id="losses">0</span></p>
 
-    <p> losses: <span id = "losses">0</span></p>
+      <p id="guessesLeftSB">Guesses Left: <span id="guesses-left">12</span></p>
+    </div>
 
-    <p>Guesses Left: <span id = "guesses-left">10</span></p>
-
-    <p>Your Guesses so far: <span id = "guesses-so-far"></span></p>
-
-    <script type = "text/javascript" src = "actions.js"></script>
-    
-</body>
+    <script type="text/javascript" src="actions.js"></script>
+  </body>
 </html>
